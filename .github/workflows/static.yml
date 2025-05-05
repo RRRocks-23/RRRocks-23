@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RRROCKS - Premium Granite & Quartz Surfaces</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #2b2b2b;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background: #444;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d4af37;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1582582494700-8d8f10b60f56') center/cover no-repeat;
+      color: #fff;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .about p {
+      text-align: center;
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .product {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .testimonials {
+      background: #2b2b2b;
+      color: #fff;
+    }
+
+    .testimonial {
+      max-width: 700px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .testimonial p {
+      font-style: italic;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      background: #2b2b2b;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background: #d4af37;
+      color: #000;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RRROCKS</h1>
+    <p>Premium Granite, Quartz & Rare Stone Surfaces</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#materials">Materials</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Timeless Stone. Lasting Elegance.</h1>
+    <p>Discover a world of natural beauty with our curated selection of granite, quartz, and rare materials – perfect for kitchens, bathrooms, and architectural projects.</p>
+  </section>
+
+  <section class="section about" id="about">
+    <h2>About RRROCKS</h2>
+    <p>At RRROCKS, we specialize in sourcing and supplying the finest natural stones from around the world. Whether you're building your dream kitchen or designing a luxury commercial space, our surfaces combine durability with elegance to deliver enduring results.</p>
+  </section>
+
+  <section class="section products" id="materials">
+    <h2>Our Materials</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1615966656005-2f1e5d8cbebc" alt="Granite">
+        <h3>Granite Slabs</h3>
+        <p>Durable and visually striking, our premium granite surfaces are ideal for countertops and flooring.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1570521879790-4d52c171bb40" alt="Quartz">
+        <h3>Engineered Quartz</h3>
+        <p>Low maintenance and modern. Our quartz options offer a clean aesthetic with superior performance.</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1603761960093-4b38dc90139b" alt="Rare Stone">
+        <h3>Rare & Exotic Stones</h3>
+        <p>Make a bold statement with rare marble, onyx, and semi-precious stone slabs handpicked for exclusivity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1582582494700-8d8f10b60f56" alt="Granite Kitchen">
+      <img src="https://images.unsplash.com/photo-1621516460371-e9a64fc258b1" alt="Quartz Island">
+      <img src="https://images.unsplash.com/photo-1603573607419-9c08b73e0c8f" alt="Rare Marble Feature Wall">
+      <img src="https://images.unsplash.com/photo-1567016418730-5a136efbccd4" alt="Stone Installation">
+    </div>
+  </section>
+
+  <section class="section testimonials" id="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <p>"RRROCKS helped us transform our kitchen into a masterpiece. The granite quality is unmatched."</p>
+      <strong>- Sarah W., London</strong>
+    </div>
+    <div class="testimonial">
+      <p>"The rare quartzite slab we found at RRROCKS became the centrepiece of our showroom."</p>
+      <strong>- DesignHaus Interiors</strong>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <form action="mailto:info@rrrocks.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RRROCKS. All rights reserved. | <a href="mailto:info@rrrocks.com">info@rrrocks.com</a></p>
+  </footer>
+
+</body>
+</html>
